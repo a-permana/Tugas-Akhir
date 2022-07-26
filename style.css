@@ -848,16 +848,19 @@ footer {
   .home .max-width {
     margin: auto 0 auto 20px;
   }
+  .home .home-content{
+    padding-top: 100px;
+  }
   .home .home-content .text-1 {
-    font-size: 24px;
+    font-size: 30px;
   }
   .home .home-content .text-2 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
   }
   .home .home-content .text-3 {
-    font-size: 24px;
+    font-size: 30px;
   }
   .home .home-content .text-3 span {
     font-size: 20px;
