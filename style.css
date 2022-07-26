@@ -746,7 +746,7 @@ footer {
   }
   .about .about-content .left {
     width: 100%;
-    margin-left: 15%;
+    margin-left: 21%;
     margin-bottom: 10px;
   }
   .about .about-content .right{
@@ -890,9 +890,6 @@ footer {
     width: 200px;
     height: 250px;
     /* margin-right: 40px; */
-  }
-  .about .about-content .right{
-    border: 2px solid red;
   }
   .about .about-content .right .text{
     line-height: 24px;
