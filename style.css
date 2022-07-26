@@ -958,7 +958,7 @@ footer {
     margin-left: 298px;
     cursor: pointer;
     color: white;
-    background-color: crimson;
+    background: crimson;
     border: 2px solid crimson;
     position: absolute;
   }
