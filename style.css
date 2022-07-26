@@ -43,6 +43,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 body {
   font-family: 'Ubuntu', sans-serif;
   overflow-x: hidden;
@@ -137,7 +138,7 @@ nav ul li a:hover {
   transform: scale(0);
 }
 
-/* Home section styling */
+/* Home article styling */
 .home {
   display: flex;
   background-color: white;
@@ -196,7 +197,7 @@ nav ul li a:hover {
   justify-content: space-between;
   /* border: 2px solid blue; */
 }
-section .title {
+article .title {
   position: relative;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -205,7 +206,7 @@ section .title {
   margin-bottom: 60px;
   padding-bottom: 20px;
 }
-section .title::before {
+article .title::before {
   content: "";
   position: absolute;
   width: 180px;
@@ -215,7 +216,7 @@ section .title::before {
   background: black;
   transform: translateX(-50%);
 }
-section .title::after {
+article .title::after {
   position: absolute;
   bottom: -12px;
   left: 50%;
@@ -226,8 +227,8 @@ section .title::after {
   transform: translateX(-50%);
 }
 
-/* about section styling */
-section {
+/* about article styling */
+article {
   padding: 100px 0;
 }
 .about,
@@ -305,7 +306,7 @@ footer {
   background: none;
 }
 
-/* experience section styling */
+/* experience article styling */
 .experience,
 .sertif {
   color: white;
@@ -367,7 +368,7 @@ footer {
   background-color: #14b8a6;
 }
 
-/* skill section styling */
+/* skill article styling */
 .skills {
   padding: 0 20px;
   margin-top: 70px;
@@ -455,7 +456,7 @@ footer {
   width: 70%;
 }
 
-/* sertifikat section styling */
+/* sertifikat article styling */
 .sertif .title::after {
   content: "my sertificate";
 }
@@ -498,7 +499,7 @@ footer {
   height: 40px;
 }
 
-/* contact me section styling */
+/* contact me article styling */
 .contact {
   margin: 20px;
 }
@@ -626,7 +627,7 @@ footer {
   margin-top: 50px;
 }
 
-/* footer section styling */
+/* footer article styling */
 footer {
   background: #111;
   color: white;
