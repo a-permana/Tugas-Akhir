@@ -940,6 +940,7 @@ footer {
     position: absolute;
     cursor: pointer;
     color: white;
+    width: 100px;
     background-color: #14b8a6;
     border: 2px solid #14b8a6;
     left: 8px;
@@ -952,8 +953,9 @@ footer {
     transition: all 0.3s ease;
   }
   .sertif .card .btn-right {
-    margin-left: 298px;
+    margin-left: 245px;
     cursor: pointer;
+    width: 100px;
     color: white;
     background: #14b8a6;
     border: 2px solid #14b8a6;
