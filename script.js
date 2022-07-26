@@ -3,8 +3,15 @@ const menuToggle = document.querySelector('.menu-toggle input');
 const nav = document.querySelector('nav ul');
 
 menuToggle.addEventListener('click', function(){
+    menuToggle.classList.toggle('slide')
     nav.classList.toggle('slide')
 })
+
+document.querySelectorAll("nav ul").forEach(n => n.addEventListener("click", () => {
+  menuToggle.classList.remove("slide");
+  nav.classList.remove("slide");
+}))
+
 
 var slideIndex = 1;
 showDivs(slideIndex);
