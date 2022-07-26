@@ -1,132 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Rufina:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap");
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
-ol,
-ul {
-  list-style: none;
+ol, ul {
+	list-style: none;
 }
-blockquote,
-q {
-  quotes: none;
+blockquote, q {
+	quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
-
 body {
-  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
   overflow-x: hidden;
 }
 * {
@@ -137,7 +55,7 @@ body {
 nav {
   font-family: "Ubuntu", sans-serif;
   font-size: 18px;
-  background-color: crimson;
+  background-color: #14b8a6;
   padding: 30px;
   display: flex;
   justify-content: space-around;
@@ -150,31 +68,27 @@ nav {
   right: 0;
   z-index: 999;
 }
-
 .logo h4 {
   font-size: 35px;
   font-weight: 600;
   letter-spacing: 1.1px;
 }
-
 nav ul {
   display: flex;
   list-style: none;
   width: 50%;
   justify-content: space-between;
 }
-
 nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 0.9em;
   transition: color 0.3s ease;
 }
-
 nav ul li a:hover {
   background: white;
   border: 2px solid white;
-  color: crimson;
+  color: #14b8a6;
   border-radius: 2px;
   padding: 2px;
 }
@@ -187,7 +101,6 @@ nav ul li a:hover {
   justify-content: space-between;
   position: relative;
 }
-
 .menu-toggle input {
   position: absolute;
   width: 50px;
@@ -198,7 +111,6 @@ nav ul li a:hover {
   cursor: pointer;
   z-index: 2;
 }
-
 .menu-toggle span {
   display: block;
   width: 28px;
@@ -212,18 +124,15 @@ nav ul li a:hover {
 .menu-toggle span:nth-child(2) {
   transform-origin: 0 0;
 }
-
 .menu-toggle span:nth-child(4) {
   transform-origin: 0 100%;
 }
-
 .menu-toggle input:checked ~ span:nth-child(2) {
   transform: rotate(45deg) translate(-1px, 1px);
 }
 .menu-toggle input:checked ~ span:nth-child(4) {
   transform: rotate(-45deg) translate(-1px, 0);
 }
-
 .menu-toggle input:checked ~ span:nth-child(3) {
   transform: scale(0);
 }
@@ -240,11 +149,9 @@ nav ul li a:hover {
   min-height: 500px;
   color: white;
 }
-
 .home .max-width {
   margin: auto 0 auto 40px;
 }
-
 .home .home-content .text-1 {
   font-size: 27px;
 }
@@ -258,23 +165,23 @@ nav ul li a:hover {
 }
 .home .home-content .text-3 span {
   font-size: 40px;
-  color: crimson;
+  color: #14b8a6;
   font-weight: 600;
 }
 .home .home-content a {
   display: inline-block;
-  background: crimson;
+  background: #14b8a6;
   color: white;
   font-size: 25px;
   padding: 10px 10px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid #14b8a6;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: crimson;
+  color: #14b8a6;
   background: none;
 }
 
@@ -292,9 +199,9 @@ nav ul li a:hover {
 section .title {
   position: relative;
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 60px;
   padding-bottom: 20px;
 }
@@ -314,7 +221,7 @@ section .title::after {
   left: 50%;
   padding: 5px;
   font-size: 20px;
-  color: crimson;
+  color: #14b8a6;
   background: white;
   transform: translateX(-50%);
 }
@@ -331,14 +238,6 @@ footer {
   font-family: "Poppins", sans-serif;
   /* margin: 20px; */
 }
-.about .title,
-.experience .title,
-.skills .title,
-.sertif .title,
-.contact .title {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 600;
-}
 .about .title::after {
   content: "who i am";
 }
@@ -353,50 +252,56 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  /* border: 2px solid blue; */
 }
 .about .about-content .left {
   width: 45%;
+  padding-left: 40px;
 }
-.about .about-content .right {
-  line-height: 20px;
+.about .about-content .right{
   width: 55%;
+  padding-right: 40px;
 }
-.about .about-content .left img {
-  width: 400px;
+.about .about-content .right .text{
+  line-height: 28px;
+}
+.about .about-content .right p{
+  line-height: 24px;
+}
+.about .about-content .left img{
+  width: 300px;
   height: 400px;
-  /* margin-left: 100px; */
   object-fit: cover;
+  background-size: cover;
+  overflow: hidden;
   border-radius: 6px;
+  box-shadow: 2px 0 10px 0 black;
 }
 .about .about-content .right .text {
   font-size: 25px;
   font-weight: 600;
   margin-bottom: 10px;
-  /* margin-right: 100px; */
 }
 .about .about-content .right p {
-  /* margin-right: 100px; */
   text-align: justify;
 }
 .about .about-content .right .text span {
-  color: crimson;
+  color: #14b8a6;
 }
 .about .about-content .right a {
   display: inline-block;
-  background: crimson;
+  background: #14b8a6;
   color: white;
-  font-size: 25px;
-  font-weight: 500;
-  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid #14b8a6;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-  color: crimson;
+  color: #14b8a6;
   background: none;
 }
 
@@ -449,7 +354,7 @@ footer {
   line-height: 20px;
 }
 .experience .experience-content .card:hover {
-  background-color: crimson;
+  background-color: #14b8a6;
 }
 
 /* skill section styling */
@@ -478,19 +383,19 @@ footer {
 }
 .skills .skills-content .left a {
   display: inline-block;
-  background: crimson;
+  background: #14b8a6;
   color: white;
   font-size: 20px;
   font-weight: 500;
   padding: 8px 16px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid crimson;
+  border: 2px solid #14b8a6;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover {
-  color: crimson;
+  color: #14b8a6;
   background: none;
 }
 .skills .skills-content .right .bars {
@@ -519,7 +424,7 @@ footer {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: crimson;
+  background-color: #14b8a6;
 }
 .skills .skills-content .right .html::before {
   width: 80%;
@@ -551,13 +456,13 @@ footer {
   position: absolute;
   cursor: pointer;
   color: white;
-  background-color: crimson;
-  border: 2px solid crimson;
+  background-color: #14b8a6;
+  border: 2px solid #14b8a6;
   left: 175px;
 }
 .sertif .card .btn-left:hover {
-  color: crimson;
-  border: 2px solid crimson;
+  color: #14b8a6;
+  border: 2px solid #14b8a6;
   background: white;
   transition: all 0.3s ease;
 }
@@ -565,18 +470,17 @@ footer {
   margin-left: 953px;
   cursor: pointer;
   color: white;
-  background-color: crimson;
-  border: 2px solid crimson;
+  background-color: #14b8a6;
+  border: 2px solid #14b8a6;
   position: absolute;
 }
 .sertif .card .btn-right:hover {
-  color: crimson;
-  border: 2px solid crimson;
+  color: #14b8a6;
+  border: 2px solid #14b8a6;
   background: white;
   transition: all 0.3s ease;
 }
 .sertif .card .pict {
-  /* display: none; */
   width: 1000px;
 }
 .sertif .card .btn {
@@ -614,6 +518,12 @@ footer {
   background-repeat: no-repeat;
   background-image: url(assets/phone.png);
 }
+.contact .contact-content .left .icons .row .site {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url(assets/internet.png);
+}
 .contact .contact-content .column {
   width: calc(50% - 30px);
 }
@@ -624,6 +534,7 @@ footer {
 }
 .contact .contact-content .left p {
   text-align: justify;
+  line-height: 24px;
 }
 .contact .contact-content .left .icons {
   margin: 10px 0;
@@ -655,8 +566,6 @@ footer {
 }
 .contact .contact-content .right form .field,
 .contact .contact-content .right form .fields .field {
-  /* border: 1px solid blue; */
-  /* height: 45%; */
   width: 100%;
   margin-bottom: 10px;
 }
@@ -690,8 +599,8 @@ footer {
 .contact .contact-content .right form .button button {
   width: 100%;
   height: 100%;
-  border: 2px solid crimson;
-  background: crimson;
+  border: 2px solid #14b8a6;
+  background: #14b8a6;
   color: white;
   font-size: 17px;
   border-radius: 6px;
@@ -701,7 +610,7 @@ footer {
 }
 .contact .contact-content .right form .button button:hover {
   background: none;
-  color: crimson;
+  color: #14b8a6;
 }
 .contact .contact-content .right {
   margin-top: 50px;
@@ -715,7 +624,7 @@ footer {
   text-align: center;
 }
 .copy span {
-  color: crimson;
+  color: #14b8a6;
 }
 
 /* responsive breakpoint */
@@ -757,13 +666,13 @@ footer {
     position: absolute;
     cursor: pointer;
     color: white;
-    background-color: crimson;
-    border: 2px solid crimson;
+    background-color: #14b8a6;
+    border: 2px solid #14b8a6;
     left: 19px;
   }
   .sertif .card .btn-left:hover {
-    color: crimson;
-    border: 2px solid crimson;
+    color: #14b8a6;
+    border: 2px solid #14b8a6;
     background: white;
     transition: all 0.3s ease;
   }
@@ -771,13 +680,13 @@ footer {
     margin-left: 679px;
     cursor: pointer;
     color: white;
-    background-color: crimson;
-    border: 2px solid crimson;
+    background-color: #14b8a6;
+    border: 2px solid #14b8a6;
     position: absolute;
   }
   .sertif .card .btn-right:hover {
-    color: crimson;
-    border: 2px solid crimson;
+    color: #14b8a6;
+    border: 2px solid #14b8a6;
     background: white;
     transition: all 0.3s ease;
   }
@@ -803,7 +712,7 @@ footer {
     height: 100vh;
     flex-direction: column;
     align-items: center;
-    background-color: crimson;
+    background-color: #14b8a6;
     z-index: -1;
     transform: translateX(100%);
     transition: all 1s;
@@ -812,7 +721,7 @@ footer {
   nav ul li a:hover {
     background: white;
     border: 2px solid white;
-    color: crimson;
+    color: #14b8a6;
     border-radius: 2px;
     padding: 2px;
     border-radius: 2px;
@@ -831,26 +740,37 @@ footer {
     font-size: 20px;
     padding: 8px 8px;
   }
-  .about .about-content {
-    width: 515px;
-    margin: 0 auto;
+  .about{
+    background: grey;
   }
-  .about .about-content .column {
-    width: 100%;
+  .about .about-content {
+    width: 550px;
+    margin-left: 30px;
   }
   .about .about-content .left {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 60px;
+    width: 100%;
+    margin-left: 11%;
+    margin-bottom: 20px;
   }
-  .about .about-content .right {
-    flex: 100%;
+  .about .about-content .right{
+    width: 100%;
   }
-  .about .about-content .right .text {
-    font-size: 25px;
-    line-height: 25px;
-    font-weight: 600;
-    margin-bottom: 10px;
+  .about .about-content .right .text{
+    line-height: 24px;
+  }
+  .about .about-content .right p{
+    line-height: 28px;
+    font-size: 18px;
+  }
+  .experience .experience-content .card .text {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0 7px 0;
+  }
+  .experience .experience-content .card .desc {
+    font-size: 16px;
+    text-align: left;
+    line-height: 20px;
   }
   .experience .experience-content .card {
     width: 100%;
@@ -863,13 +783,13 @@ footer {
     position: absolute;
     cursor: pointer;
     color: white;
-    background-color: crimson;
-    border: 2px solid crimson;
+    background-color: #14b8a6;
+    border: 2px solid #14b8a6;
     left: 12px;
   }
   .sertif .card .btn-left:hover {
-    color: crimson;
-    border: 2px solid crimson;
+    color: #14b8a6;
+    border: 2px solid #14b8a6;
     background: white;
     transition: all 0.3s ease;
   }
@@ -877,13 +797,13 @@ footer {
     margin-left: 500px;
     cursor: pointer;
     color: white;
-    background-color: crimson;
-    border: 2px solid crimson;
+    background-color: #14b8a6;
+    border: 2px solid #14b8a6;
     position: absolute;
   }
   .sertif .card .btn-right:hover {
-    color: crimson;
-    border: 2px solid crimson;
+    color: #14b8a6;
+    border: 2px solid #14b8a6;
     background: white;
     transition: all 0.3s ease;
   }
@@ -908,7 +828,7 @@ footer {
     height: 100vh;
     flex-direction: column;
     align-items: center;
-    background-color: crimson;
+    background-color: #14b8a6;
     z-index: -1;
     transform: translateX(100%);
     transition: all 1s;
@@ -923,34 +843,96 @@ footer {
   nav ul li a:hover {
     background: white;
     border: 2px solid white;
-    color: crimson;
+    color: #14b8a6;
     border-radius: 2px;
     padding: 2px;
     border-radius: 2px;
   }
-
-  nav ul.slide {
-    transform: translateX(0);
-    opacity: 1;
-  }
   .home .max-width {
     margin: auto 0 auto 20px;
   }
-  .about .about-content {
-    width: 345px;
+  .home .home-content .text-1 {
+    font-size: 20px;
+  }
+  .home .home-content .text-2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: -3px;
+  }
+  .home .home-content .text-3 {
+    font-size: 20px;
+  }
+  .home .home-content .text-3 span {
+    font-size: 20px;
+    color: #14b8a6;
+    font-weight: 600;
+  }
+  .home .home-content a {
+    display: inline-block;
+    background: #14b8a6;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 10px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #14b8a6;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  .about .max-width{
+    width: 300px;
     margin: 0 auto;
+  }
+  .about .about-content {
+    border: 2px solid blue;
+    width: 300px;
+  }
+  .about .about-content .left img{
+    /* margin-left: 11%; */
+    margin-bottom: 20px;
+    width: 150px;
+    height: 200px;
+    /* margin-right: 40px; */
+    border: 2px solid blue;
+  }
+  .about .about-content .right{
+    border: 2px solid red;
+  }
+  .about .about-content .right .text{
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .about .about-content .right p{
+    line-height: 24px;
+    font-size: 16px;
+  }
+  .about .about-content .right a {
+    display: inline-block;
+    background: #14b8a6;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 18px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #14b8a6;
+    text-decoration: none;
+    transition: all 0.3s ease;
   }
   .sertif .card .btn-left {
     position: absolute;
     cursor: pointer;
     color: white;
-    background-color: crimson;
-    border: 2px solid crimson;
+    background-color: #14b8a6;
+    border: 2px solid #14b8a6;
     left: 8px;
   }
   .sertif .card .btn-left:hover {
-    color: crimson;
-    border: 2px solid crimson;
+    color: #14b8a6;
+    border: 2px solid #14b8a6;
     background: white;
     transition: all 0.3s ease;
   }
@@ -958,8 +940,8 @@ footer {
     margin-left: 298px;
     cursor: pointer;
     color: white;
-    background: crimson;
-    border: 2px solid crimson;
+    background: #14b8a6;
+    border: 2px solid #14b8a6;
     position: absolute;
   }
   .sertif .card .pict {
