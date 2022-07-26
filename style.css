@@ -242,7 +242,7 @@ footer {
   content: "who i am";
 }
 .about .about-content {
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
 }
 .about .about-content,
@@ -255,11 +255,11 @@ footer {
 }
 .about .about-content .left {
   width: 45%;
-  padding-left: 40px;
+  /* padding-left: 40px; */
 }
 .about .about-content .right{
   width: 55%;
-  padding-right: 40px;
+  /* padding-right: 40px; */
 }
 .about .about-content .right .text{
   line-height: 28px;
@@ -272,7 +272,7 @@ footer {
   height: 400px;
   object-fit: cover;
   background-size: cover;
-  overflow: hidden;
+  /* overflow: hidden; */
   border-radius: 6px;
   box-shadow: 2px 0 10px 0 black;
 }
@@ -740,17 +740,14 @@ footer {
     font-size: 20px;
     padding: 8px 8px;
   }
-  .about{
-    background: grey;
-  }
   .about .about-content {
     width: 550px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
   }
   .about .about-content .left {
     width: 100%;
-    margin-left: 11%;
-    margin-bottom: 20px;
+    margin-left: 15%;
+    margin-bottom: 10px;
   }
   .about .about-content .right{
     width: 100%;
@@ -852,15 +849,15 @@ footer {
     margin: auto 0 auto 20px;
   }
   .home .home-content .text-1 {
-    font-size: 20px;
+    font-size: 24px;
   }
   .home .home-content .text-2 {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 600;
     margin-left: -3px;
   }
   .home .home-content .text-3 {
-    font-size: 20px;
+    font-size: 24px;
   }
   .home .home-content .text-3 span {
     font-size: 20px;
@@ -880,34 +877,28 @@ footer {
     text-decoration: none;
     transition: all 0.3s ease;
   }
-
-  .about .max-width{
-    width: 300px;
-    margin: 0 auto;
-  }
   .about .about-content {
-    border: 2px solid blue;
-    width: 300px;
+    width: 320px;
+    margin: 0 auto;
   }
   .about .about-content .left img{
     /* margin-left: 11%; */
     margin-bottom: 20px;
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 250px;
     /* margin-right: 40px; */
-    border: 2px solid blue;
   }
   .about .about-content .right{
     border: 2px solid red;
   }
   .about .about-content .right .text{
     line-height: 24px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
   }
   .about .about-content .right p{
-    line-height: 24px;
-    font-size: 16px;
+    line-height: 20px;
+    font-size: 14px;
   }
   .about .about-content .right a {
     display: inline-block;
