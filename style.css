@@ -654,9 +654,6 @@ footer {
   .about .about-content .right{
     padding-right: 0px;
   }
-  .max-width{
-    max-width: 768px;
-  }
   .about .about-content .right{
     flex: 100%;
   }
