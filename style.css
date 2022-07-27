@@ -995,9 +995,9 @@ footer {
     transition: all 0.3s ease;
   }
   .sertif .card .btn-right {
-    margin-left: 245px;
+    margin-left: 190px;
     cursor: pointer;
-    width: 200px;
+    width: 150px;
     height: 250px;
     color: white;
     background: #14b8a6;
