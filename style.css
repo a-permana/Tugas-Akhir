@@ -980,11 +980,11 @@ footer {
     position: absolute;
     cursor: pointer;
     color: white;
-    width: 200px;
+    width: 150px;
     height: 250px;
     background-color: #14b8a6;
     border: 2px solid #14b8a6;
-    left: 1px;
+    left: 18px;
     margin-top: 10px;
     opacity: 0;
   }
@@ -995,20 +995,20 @@ footer {
     transition: all 0.3s ease;
   }
   .sertif .card .btn-right {
-    margin-left: 190px;
+    margin-left: 148px;
     cursor: pointer;
     width: 150px;
     height: 250px;
     color: white;
-    background: #14b8a6;
-    border: 2px solid #14b8a6;
+    background: red;
+    border: 2px solid red;
     position: absolute;
     margin-top: 10px;
     opacity: 0;
   }
   .sertif .card .pict {
     display: none;
-    width: 345px;
+    width: 300px;
   }
   .contact .contact-content .text {
     font-size: 18px;
